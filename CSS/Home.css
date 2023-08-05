@@ -1,0 +1,106 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.Navigation{
+    background-color: #7952b3;
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    padding-top: 10px;
+    height: 8vh;
+    font-size: medium;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: sticky;
+    top: 0;
+    z-index: 1020;
+}
+svg{
+    color: white;
+    margin-left: 25px;
+    margin-top: 5px;
+    vertical-align: middle;
+}
+.content{
+    height: 900px;
+}
+.navbar{
+  width: 70%;
+  display: flex;
+  color: rgb(215, 209, 209);
+}
+.menu{
+    list-style: none;
+    background-color: transparent;
+    margin-left :10px;
+    padding: 10px;
+}
+.buttons{
+    padding-right: 20px;
+}
+.login-button,.download-button{
+    width: 6vw;
+    font-weight: 600;
+    color: #ffe484;
+    border-color: #ffe484;
+    font-weight: 600;
+    border-radius: 5px;
+}
+.login-button:hover , .download-button:hover{
+    cursor: pointer;
+    background-color:#ffe484;
+    color: black;
+    border: none;
+}
+
+.search::placeholder{
+    color:rgb(224, 212, 212);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.search-button{
+    display: none;
+}
+.active{
+    color: white;
+}
+.search{
+    border-radius: 4px;
+    border: 0.3px solid rgb(224, 212, 212);
+    padding: 7px;
+    width: 20vw;
+    background: transparent;
+    margin-left: 40px;
+    color: white;
+}
+.search:focus{
+    box-shadow: -5px -5px 10px white;
+    outline: none;
+    transform: scale(1.2);
+}
+.footer{
+    /* text-align: center; */
+    height: 50vh;
+    display: grid;
+    grid-template-columns: 7fr 2fr 3fr 3fr 4fr;
+    background-color: #f8f9fa!important;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.footer-data{
+    padding: 50px;
+    padding-left: 40px;
+    line-height: 2;
+    color: rgb(95, 97, 98);
+}
+#about-head{
+    display: flex;
+    height: 6vh;
+    color: rgb(95, 97, 98);
+}
+#about2{
+    color: rgb(95, 97, 98);
+}
+
+#Links ul,#Guides ul,#Projects ul,#Community ul{
+    list-style: none;
+    margin-top: 10px;
+}
